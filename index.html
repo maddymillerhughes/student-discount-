@@ -137,8 +137,6 @@ for (var i = 0; i < 100; i++) {
 
 <p>Remember to check back regularly as we continually update our list with the latest education discounts. At <em>[Your Website Name]</em>, we're dedicated to helping students access quality education resources at affordable prices.</p>
 
-</body>
-</html>
 
 
       <section id="entertain"><h2>Student Entertainment Discounts</h2>
@@ -177,60 +175,4 @@ for (var i = 0; i < 100; i++) {
       <p>© 2023 Your Name or Your Website's Name</p>
     </footer>
   </body>
-</html>
-<!DOCTYPE html>
-<html>
-<head>
-    <style>
-    body, html {
-      height: 100%;
-      margin: 0;
-      padding: 0;
-      background-color: #f0f0f0;  pink with rainbows ombray
-    }
-
-    #rain {
-      position: absolute;
-      top: 0;
-      left: 0;
-      pointer-events: none;
-      overflow: hidden;
-      width: 100%;
-      height: 100%;
-    }
-
-    .raindrop {
-      background: skyblue;
-      width: 1px;
-      height: 90px;
-      position: absolute;
-      bottom: 100%;
-      animation: fall linear infinite;
-    }
-
-    @keyframes fall {
-      to {
-        transform: translateY(100vh);
-      }
-    }
-    </style>
-</head>
-<body>
-
-<div id="rain"></div>
-
-<script>
-var rain = document.getElementById('rain');
-
-for (var i = 0; i < 100; i++) {
-  var drop = document.createElement('div');
-  drop.className = 'raindrop';
-  drop.style.left = Math.random() * 100 + 'vw';
-  drop.style.animationDuration = Math.random() * 2 + 's';
-  drop.style.animationDelay = Math.random() * 2 + 's';
-  rain.appendChild(drop);
-}
-</script>
-
-</body>
 </html>
